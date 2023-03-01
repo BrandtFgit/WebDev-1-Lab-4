@@ -1,0 +1,137 @@
+.flex-box-1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: rgb(173, 216, 230);
+}
+
+.flex-box-1 div {
+    background-color: rgb(128, 128, 128);
+    width: 50%;
+    margin: 10px;
+    height: 50px;
+}
+
+
+.flex-box-1 #firstA {
+    margin-right: 0px;
+}
+
+.flex-box-1 #firstB {
+    margin-left: 0px;
+}
+
+
+
+.flex-box-2{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    background-color: rgb(173, 216, 230);
+}
+
+.flex-box-2 div {
+    background-color: rgb(128, 128, 128);
+    width: 33%;
+    margin: 15px;
+    height: 50px;
+    flex-grow: 1;
+}
+
+
+.flex-box-2 #secondA {
+    margin-right: 0px;
+}
+
+.flex-box-2 #secondB {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.flex-box-2 #secondC {
+    margin-left: 0px;
+}
+
+
+
+.flex-box-3{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    background-color: rgb(173, 216, 230);
+}
+
+.flex-box-3 div {
+    background-color: rgb(128, 128, 128);
+    width: 33%;
+    margin: 12px;
+    border: 2px solid black;
+    height: 50px;
+    flex-grow: 1;
+}
+
+
+.flex-box-3 #thirdA {
+    margin-right: 0px;
+    width: 66%;
+}
+
+.flex-box-3 #thirdB {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.flex-box-3 #thirdC {
+    margin-left: 0px;
+}
+
+
+
+
+.flex-box-4{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    background-color: rgb(173, 216, 230);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-box-4 div {
+    background-color: rgb(128, 128, 128);
+    width: 20%;
+    margin: 12px;
+    border: 2px solid black;
+    height: 50px;
+    flex-grow: 1;
+}
+
+
+.flex-box-4 #fourthA {
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.flex-box-4 #fourthB {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.flex-box-4 #fourthC {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+
+.flex-box-4 #fourthD {
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.flex-box-4 #fourthE {
+    width: 100%;
+    margin-top: 0px;
+}
